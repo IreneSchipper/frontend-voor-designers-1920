@@ -1,0 +1,170 @@
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+p {
+    color: white;
+}
+
+header p {
+   text-align: center;
+    font-size:40px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+main img {
+    display: block;
+    width: 60%;
+    height: auto;
+}
+
+main > h1 {
+    grid-column: 1 / -1;
+}
+
+section { 
+margin-left: 175px;
+    margin-top: 40px;
+}
+
+body.movies main section {
+    /* grid kind */
+    grid-column: 1/-1;
+
+    /* grid ouder */
+    display: grid;
+    grid-gap: 10px;
+}
+
+body.movies main section article {
+    display: flex;
+    flex-direction: column;
+}
+
+body.movies main section article img {
+    order: -1;
+}
+
+body.movies main section article h2 {
+    margin-bottom: 0;
+}
+
+body.movies main section article p {
+    margin-top: 0;
+}
+
+body.movies main section article p em {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+@media (min-width:30em) {
+    body.movies main section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:48em) {
+    body.movies main section {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+
+
+
+
+
+
+button{
+     text-decoration: none;
+  position:relative;
+  top: 10px;
+  left:0;
+  padding:20px 0px;
+  margin-left: 0px;
+    margin-right: 250px;
+  border-radius:100px;
+  display: absolute;
+    font-size: 20px;
+    
+
+
+}
+
+
+
+div {
+  border: 2px solid gray;
+top: 20px;
+  left:0;
+  padding:20px 0px;
+  margin-left: 0px;
+ margin-right: 250px;
+    margin-top: 20px;
+  border-radius:100px;
+  opacity: 0;
+  transition: 0.3s;
+ color: white;
+font-size: 20px;
+text-align: center;
+ background-color: #b19cd9;
+position:static;
+  margin-top: -40px;
+    z-index: 20;
+  
+  
+    
+    
+}
+div.clicked {
+  opacity: 1;
+}
+//*top: 704px;
+  left:150px;
+  padding:25px 55px;
+  margin-left: 33px;
+
+  border-radius:100px; //*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
