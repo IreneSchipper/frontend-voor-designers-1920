@@ -6,12 +6,18 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
 # Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
+Films toevoegen
+In een verzameling films wil ik een aantal leuke films kunnen bewaren om ze later te bekijken.
+
 
 ## interface
-Leg de interface uit. In de demo heb je de interface design principles 04 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
+Op deze pagina kun je films toevoegen aan een lijst door op de knop te drukken.
+Als je de film wilt verwijderen van de lijst dan klik je op de remove knop die er dan half onder komt te staan.
+
+Het is een hele simpele manier van films toeveogen door middel van een knop.
+
 
 
 ## code
-Leg de code uit.
+In de bestanden bovenin staat de code!
+De code bestaat uit een opbouw van een grid in de css. De html is heel basic opgedeeld in sections en articles. Doormiddel van het grid komen de articles naast elkaar te staan. Door javascript te gebruiken kan ik zorgen dat als je op de button klikt dat er dan een andere tekstwolk te voorschijn komt. Ook kun je deze weer "removen
