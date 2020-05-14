@@ -1,7 +1,6 @@
 # Frontend voor Designers - opdracht 1: Een Micro-interactie uitwerken en testen
 
-https://github.com/IreneSchipper/frontend-voor-designers-1920/tree/master/opdracht1/Opdracht%201
-
+https://github.com/IreneSchipper/frontend-voor-designers-1920/blob/master/opdracht1/Opdracht%201/index.html
 
 # Project titel
 Films toevoegen
