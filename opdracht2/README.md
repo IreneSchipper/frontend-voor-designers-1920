@@ -1,20 +1,32 @@
 # Frontend voor Designers - opdracht 2: Een interactie uitwerken voor verschillende gebruikers input
 
-Werk een functionaliteit uit die je kunt bedienen met 'click' en nog een user interactie, zoals het toetsenbord, tab, dubbel click, swipe, long press, <del>force touch</del>, of iets anders ... Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een [browser](https://en.m.wikipedia.org/wiki/List_of_web_browsers).
-
-Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
-
 
 # Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
+Carousel met foto's: Een carousel met meerdere foto's, die je kan bedienen met een button en met de pijltjes op het toetsenbord.
 
 ## interface
-Leg de interface uit.
+De carousel werkt heel simpel. Je kan op de pijltjes knoppen links en rechts drukken om naar de volgende foto te gaan. Op de knoppen zitten pijltjes zodat de gebruiker weet welke knop wat doet. Wanneer de gebruiker alle foto's heeft gehad begint deze weer opnieuw. Zo is het een carousel die door blijft gaan en die dezelfde foto's laat zien aan de gebruiker. Ook kan de gebruiker de carousel bedienen met de pijltjes "links" en "Rechts" op het toetsenbord. 
 
-In de demo heb je interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
+Ik heb "keep users in control" toegepast door de interface simpel te houden. De gebruiker ziet de knoppen en ziet dat er pijltjes op staan waardoor al duidelijk wordt dat de gebruiker ergens op kan klikken waardoor de plaatjes zullen verschuiven. 
 
-In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
+Ik heb "provide a natural next step" nog niet voldoende kunnen toepassen. In mijn eerste ontwerp wilde ik dat de gebruiker al de volgende foto kon zien zodat de gebruiker gelijk wist dat er meer foto's zouden komen. Ik heb dit wel gedaan door de pijltjes op knoppen toe te passen.
+
+Ik heb "appearance follows behavior" toegepast door de knoppen. De knoppen werken hoe de gebruiker zou denken dat deze werken. 
+
 
 ## code
-Leg de code uit.
+Ik heb gebruik gemaakt van Jquery om het klikken op de pijltjes op het toetsenbord mogelijk te kunnen maken.
+Dit heb ik met de volgende code gedaan. 
+
+ $(document).on('keyup', function(event) {
+   if (event.which === 37) {
+      $('.knopvorige').trigger('tap');
+   } else if (event.which === 39) {
+      $('.knopvolgende').trigger('tap');
+   }
+}); 
+
+Met de event.which code "37" en "39" geef ik de knoppen links en rechts aan.
+
+
+
