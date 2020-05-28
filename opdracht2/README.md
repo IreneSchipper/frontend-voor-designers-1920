@@ -4,6 +4,8 @@
 # Project titel
 Carousel met foto's: Een carousel met meerdere foto's, die je kan bedienen met een button en met de pijltjes op het toetsenbord.
 
+https://ireneschipper.github.io/frontend-voor-designers-1920/opdracht2/demo/index.html
+
 ## interface
 De carousel werkt heel simpel. Je kan op de pijltjes knoppen links en rechts drukken om naar de volgende foto te gaan. Op de knoppen zitten pijltjes zodat de gebruiker weet welke knop wat doet. Wanneer de gebruiker alle foto's heeft gehad begint deze weer opnieuw. Zo is het een carousel die door blijft gaan en die dezelfde foto's laat zien aan de gebruiker. Ook kan de gebruiker de carousel bedienen met de pijltjes "links" en "Rechts" op het toetsenbord. 
 
