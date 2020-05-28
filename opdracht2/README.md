@@ -18,13 +18,13 @@ Ik heb "appearance follows behavior" toegepast door de knoppen. De knoppen werke
 Ik heb gebruik gemaakt van Jquery om het klikken op de pijltjes op het toetsenbord mogelijk te kunnen maken.
 Dit heb ik met de volgende code gedaan. 
 
- $(document).on('keyup', function(event) {
+ /* $(document).on('keyup', function(event) {
    if (event.which === 37) {
       $('.knopvorige').trigger('tap');
    } else if (event.which === 39) {
       $('.knopvolgende').trigger('tap');
    }
-}); 
+}); */
 
 Met de event.which code "37" en "39" geef ik de knoppen links en rechts aan.
 
