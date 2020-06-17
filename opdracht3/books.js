@@ -51,3 +51,47 @@ function showBooks(jsonObj) {
     }
 }
 
+$ ('.slider').each(function(){   //voor als er meerdere sliders zouden staan op de pagina
+    var $this = $(this);         //pakt de huidige slider
+    var $group = $this.find('.slide-group');  //Pakt de slide-group in de container
+    var $slides = $this.find('.slide');  //een object om alle slides in te houden
+    var buttonArray = [];  //array voor de navigatie buttons
+    var currentIndex = 0;  //de index nummer van de huidige slide
+    var timeout;        //gebruikt om de timer in te zetten
+    
+   
+    
+    function advance (){    //timer voor tussen de slides
+        clearTimeout(timeout);  
+        timeout = setTimeout (function(){  //eerst word de huidige timer weggehaald en daarna een nieuwe toegevoegd en wanneer de tijd voorbij is kom er een anonymous function
+            if (currentIndex < ($slides.length - 1)){ //als het niet de laatste slide is
+                move (currentIndex + 1);   //gaat hij verder naar de volgende
+            } else {      // of anders
+                move(0);  //gaat hij naar de eerste slide
+            }
+        }, 4000);  
+    }
+    
+    $.each($slides, function(index){ //button element voor de button
+        var $button = $('<button type="button" class="slide-btn">&bull;</button>'); 
+        if (index === currentIndex) { //als index het huidige item is
+            $button.addClass ('active'); //voegt de active class toe
+        }
+        
+      $button.on('click', function(){ //eventhandler voor de button aanmaken
+          move (index);                   //roept de move() functie aan
+      }).appendTo($this.find('.slide-buttons'));  //wordt toegevoegd aan de buttons holders
+        buttonArray.push($button);  //toegevoegd aan de button array
+    }); 
+    
+    advance();     
+      
+       
+    });
+
+
+
+    
+    
+
+
