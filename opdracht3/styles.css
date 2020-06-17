@@ -1,0 +1,74 @@
+/* || general styles */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+/* header styles */
+
+h1 {
+  font-size: 1rem;
+  text-align: left;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
+}
+
+/*slider*/
+
+.slide-viewer {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.slide:first-child{
+    display: block;
+}
+}
+}
+}
