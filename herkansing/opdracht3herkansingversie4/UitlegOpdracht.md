@@ -27,7 +27,7 @@ Hier is mijn ontwerp te vinden: <p> <b>  https://ireneschipper.github.io/fronten
 <b> blank state:</b> Deze state wordt in mijn ontwerp toegepast doordat als je op mijn pagina komt je nog niks ziet behalve wat indicatoren. Je ziet de image en de titel nog niet.
 <br>
 <br>
-<b> loading state:/<b> De loading state wordt toegepast door het gifje dat laat zien dat de data geladen wordt in de pagina
+<b> loading state:</b> De loading state wordt toegepast door het gifje dat laat zien dat de data geladen wordt in de pagina
 <br>
 <br>
 <b> ideal state:</b> De ideal state is wanneer alle data is geladen en je succesvol door deze heen kan navigeren
