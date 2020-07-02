@@ -24,13 +24,13 @@ Hier is mijn ontwerp te vinden: <p> <b>  https://ireneschipper.github.io/fronten
 <b>11, Strong visual hierarchies work best:</b> In mijn ontwerp is nog niet optimaal visuele hierachie toegepast. Dit vind ik omdat de tekst wel netjes bovenaan staat en de details over het boek onder de img van het boek komt. Alleen had de knop met "meer informatie" ook onder de img van het boek moeten komen om de visuele hierachie volledig te hebben.
 
 <h2>De UIT stacks</h2>
-<b> blank state:<b> Deze state wordt in mijn ontwerp toegepast doordat als je op mijn pagina komt je nog niks ziet behalve wat indicatoren. Je ziet de image en de titel nog niet.
+<b> blank state:</b> Deze state wordt in mijn ontwerp toegepast doordat als je op mijn pagina komt je nog niks ziet behalve wat indicatoren. Je ziet de image en de titel nog niet.
 <br>
 <br>
-<b> loading state:<b> De loading state wordt toegepast door het gifje dat laat zien dat de data geladen wordt in de pagina
+<b> loading state:/<b> De loading state wordt toegepast door het gifje dat laat zien dat de data geladen wordt in de pagina
 <br>
 <br>
-<b> ideal state:<b> De ideal state is wanneer alle data is geladen en je succesvol door deze heen kan navigeren
+<b> ideal state:</b> De ideal state is wanneer alle data is geladen en je succesvol door deze heen kan navigeren
 <br>
 <br>
 
