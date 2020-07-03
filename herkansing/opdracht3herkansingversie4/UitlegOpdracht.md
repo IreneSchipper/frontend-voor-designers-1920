@@ -34,4 +34,9 @@ Hier is mijn ontwerp te vinden: <p> <b>  https://ireneschipper.github.io/fronten
 <br>
 <br>
 
-Alle uitleg over de code staat erin als comments!
+<h2> Lastige opdracht </h2>
+ Ik had zelf veel moeite met deze opdracht en wist niet waar ik moest beginnen. Ik had eerst de carousel uit mijn opdracht 2 gepakt maar deze zat zo gecompliceerd in elkaar dat het mij niet lukte om deze aan te passen met de html elementen die ik in de javascript had gemaakt. Gelukkig kreeg ik hulp van medestudenten en Vincent. Ik wilde de hele carousel opnieuw bouwen en hierbij heeft Vincent geholpen met behulp van een stappenplan. De loading gif en de lees meer button heb ik gemaakt met behulp van https://developer.mozilla.org/en-US/ , aan deze website heb ik veel gehad! De specifieke bronnen staan in javascript.
+ 
+ <br>
+ <br>
+ <b> Alle uitleg over de code staat erin als comments!</b>
