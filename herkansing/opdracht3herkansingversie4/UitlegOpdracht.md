@@ -23,7 +23,7 @@ Hier is mijn ontwerp te vinden: <p> <b>  https://ireneschipper.github.io/fronten
 <br>
 <b>11, Strong visual hierarchies work best:</b> In mijn ontwerp is nog niet optimaal visuele hierachie toegepast. Dit vind ik omdat de tekst wel netjes bovenaan staat en de details over het boek onder de img van het boek komt. Alleen had de knop met "meer informatie" ook onder de img van het boek moeten komen om de visuele hierachie volledig te hebben.
 
-<h2>De UIT stacks</h2>
+<h2>De UI stacks</h2>
 <b> blank state:</b> Deze state wordt in mijn ontwerp toegepast doordat als je op mijn pagina komt je nog niks ziet behalve wat indicatoren. Je ziet de image en de titel nog niet.
 <br>
 <br>
@@ -33,6 +33,9 @@ Hier is mijn ontwerp te vinden: <p> <b>  https://ireneschipper.github.io/fronten
 <b> ideal state:</b> De ideal state is wanneer alle data is geladen en je succesvol door deze heen kan navigeren
 <br>
 <br>
+
+<h2> breakdown schets </h2>
+https://imgur.com/a/SPbNuxF
 
 <h2> Lastige opdracht </h2>
  Ik had zelf veel moeite met deze opdracht en wist niet waar ik moest beginnen. Ik had eerst de carousel uit mijn opdracht 2 gepakt maar deze zat zo gecompliceerd in elkaar dat het mij niet lukte om deze aan te passen met de html elementen die ik in de javascript had gemaakt. Gelukkig kreeg ik hulp van medestudenten en Vincent. Ik wilde de hele carousel opnieuw bouwen en hierbij heeft Vincent geholpen met behulp van een stappenplan. De loading gif en de lees meer button heb ik gemaakt met behulp van https://developer.mozilla.org/en-US/ , aan deze website heb ik veel gehad! De specifieke bronnen staan in javascript.
