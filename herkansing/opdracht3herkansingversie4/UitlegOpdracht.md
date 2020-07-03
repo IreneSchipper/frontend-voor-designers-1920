@@ -9,7 +9,7 @@ Voor deze opdracht heb ik de volgende json file gebruikt "https://raw.githubuser
 Mijn idee is de random boek generator. Wanneer je op de pagina komt wordt de date eerst ingeladen, dit wordt aangetoond door een gifje, vervolgens krijg je een carousel te zien die te bedienen is met de knoppen aan de zijkant of met de pijltjes op je toetsenbord. Wil je meer informatie zien over dit boek dan kan je klikken op de knop met "meer informatie". Dit zorgt ervoor dat je onderaan de afbeelding van het boek meer informatie te zien krijgt. Wil je dit weg hebben dan klik je weer op dezelfde knop om de extra informatie weg te halen
 <br>
 <br>
-Hier is mijn ontwerp te vinden: <p> <b>  https://ireneschipper.github.io/frontend-voor-designers-1920/herkansing/opdracht3herkansingversie4/index.html  </b></p>
+Hier is mijn ontwerp te vinden: <p> <b>  https://ireneschipper.github.io/frontend-voor-designers-1920/herkansing/opdracht3herkansingversie4/  </b></p>
 
 <h2>De interface design principles</h2>
 <b>04, keep users in control:</b> In mijn ontwerp heb ik dit principe door een stuk uitleg te geven boven aan de pagina, zo weet de gebruiker hoe hij de carousel kan bedienen. De tekst op de button geeft weer dat er extra informatie is. Ook heb ik dit gedaan door een pijl naar links en rechts op de knoppen te doen zodat de gebruiker weet welke kant hij op gaat in de carousel.
